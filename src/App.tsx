@@ -128,7 +128,7 @@ export default function App() {
       <nav className={`sticky top-0 z-50 transition-colors duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-lg shadow-sm py-3' : 'bg-transparent py-5'}`}>
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <img src={CONFIG.logo} alt={CONFIG.companyNameFull} className="h-10 w-auto" />
+            
             <span className="text-xl font-bold tracking-tight text-brand-primary">{CONFIG.companyName} <span className="text-blue-600">Schädlingsbekämpfung</span></span>
           </div>
 
@@ -633,7 +633,7 @@ export default function App() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <img src={CONFIG.logo} alt={CONFIG.companyNameFull} className="h-8 w-auto bg-white rounded p-1" />
+                
                 <span className="text-xl font-bold tracking-tight text-white">{CONFIG.companyName} <span className="text-blue-500">Schädlingsbekämpfung</span></span>
               </div>
               <p className="max-w-sm mb-8">
